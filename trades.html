@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Brainrot Trading - Trades</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sidebar">
+    <h3>Servers</h3>
+    <button id="newServer">+ Nieuwe Server</button>
+    <button onclick="window.location.href='shop.html'">Shop</button>
+</div>
+
+<div class="main">
+    <h1>Trading Chat</h1>
+    <p>Chat met andere traders en voeg foto’s van je items toe!</p>
+
+    <div id="chatBox" class="chat-box"></div>
+
+    <input id="username" placeholder="Je naam">
+    <input id="message" placeholder="Typ hier je bericht">
+    <input id="image" placeholder="Link naar afbeelding">
+    <button onclick="postMessage()">Verstuur</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
